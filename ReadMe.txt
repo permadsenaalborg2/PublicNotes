@@ -1,0 +1,3 @@
+- Take MarkDown files
+- Make HTML (Hugo)
+- Publish on GitHub pages
