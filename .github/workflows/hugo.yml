@@ -23,3 +23,10 @@ jobs:
       - run: ls -ls
 
       - run: ./hugo.sh
+
+      - uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: public/
+
+      - uses: actions/deploy-pages@v4
+
