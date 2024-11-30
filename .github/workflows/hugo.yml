@@ -1,4 +1,4 @@
-name: 🎨 Test Visual Regression
+name: Build site inside hugo container
 
 on:
   push:
@@ -11,12 +11,28 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  test:
+  build_and_publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
+      pages: write
     container: ghcr.io/permadsenaalborg2/publicnotes:main
     steps:
-      - run: echo "Running 1.2.0"
+      - run: echo "running inside container"
 
       - uses: actions/checkout@v3
 
-      - run: hugo.sh
+      - run: chmod +x ./hugo.sh
+      - run: ls -ls
+
+      - run: ./hugo.sh
+
+      - uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: blog/public/
+
+      - uses: actions/deploy-pages@v4
+
