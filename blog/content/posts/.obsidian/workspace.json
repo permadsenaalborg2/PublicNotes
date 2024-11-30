@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "eb2090b4ee93a50f",
+    "type": "split",
+    "children": [
+      {
+        "id": "213bc51786f0995c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b207a25f8efa8e1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "my-first-post.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "my-first-post"
+            }
+          },
+          {
+            "id": "b4a9f19ad7443e18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My second post.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My second post"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b54296934801bad",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cc8d628d5428c84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbf7f4eb580a9ead",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "756ba56d6d35c879",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e0181085b0ee174d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f267686256e39be5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f547b445f31635c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fca2ce1c0ac17f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "My second post.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for My second post"
+            }
+          },
+          {
+            "id": "0b3a74f47458702f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "My second post.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from My second post"
+            }
+          },
+          {
+            "id": "eb3b4c6f3ac86b0d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7db80f4d06603922",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "My second post.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of My second post"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b4a9f19ad7443e18",
+  "lastOpenFiles": [
+    "my-first-post.md",
+    "My second post.md"
+  ]
+}
