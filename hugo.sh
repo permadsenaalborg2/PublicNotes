@@ -1,0 +1,3 @@
+cd blog
+hugo
+
