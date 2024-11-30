@@ -13,6 +13,11 @@ env:
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
     container: ghcr.io/permadsenaalborg2/publicnotes:main
     steps:
       - run: echo "running inside container"
