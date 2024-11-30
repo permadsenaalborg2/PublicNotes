@@ -11,13 +11,14 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  test:
+  build_and_publish:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
       attestations: write
       id-token: write
+      pages: write
     container: ghcr.io/permadsenaalborg2/publicnotes:main
     steps:
       - run: echo "running inside container"
