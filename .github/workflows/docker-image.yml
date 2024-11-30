@@ -1,10 +1,6 @@
-name: Docker Image CI
+name: Build docker image used for build Hugo site
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: workflow_dispatch
 
 env:
   REGISTRY: ghcr.io
