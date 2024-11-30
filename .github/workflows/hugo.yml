@@ -1,4 +1,4 @@
-name: 🎨 Test Visual Regression
+name: Build site inside hugo container
 
 on:
   push:
@@ -21,4 +21,4 @@ jobs:
 
       - run: ls -ls
 
-      - run: hugo.sh
+      - run: ./hugo.sh
