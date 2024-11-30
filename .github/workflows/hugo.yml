@@ -1,0 +1,14 @@
+name: 🎨 Test Visual Regression
+
+on: workflow_call
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: ghcr.io/permadsenaalborg2/publicnotes:main
+    steps:
+      - run: echo "Running 1.2.0"
+
+      - uses: actions/checkout@v3
+
+      - run: hugo
