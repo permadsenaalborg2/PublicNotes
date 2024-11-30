@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my-first-post.md",
+                "file": "My first post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "my-first-post"
+              "title": "My first post"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My second post.md",
+                "file": "My first post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My second post"
+              "title": "My first post"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My second post.md",
+                "file": "My first post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for My second post"
+              "title": "Backlinks for My first post"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My second post.md",
+                "file": "My first post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from My second post"
+              "title": "Outgoing links from My first post"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My second post.md"
+                "file": "My first post.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of My second post"
+              "title": "Outline of My first post"
             }
           }
         ]
@@ -179,7 +179,7 @@
   },
   "active": "b4a9f19ad7443e18",
   "lastOpenFiles": [
-    "my-first-post.md",
-    "My second post.md"
+    "My second post.md",
+    "My first post.md"
   ]
 }

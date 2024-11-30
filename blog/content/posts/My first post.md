@@ -4,6 +4,8 @@ draft = false
 title = 'My First Post'
 +++
 
+# My first post :-)
+
 NetworkChuck made a nice video about using Obsidian, GitHub, Hugo and other tools for hosting a blog. But I though it was a bit too complicated.
 
 https://www.youtube.com/watch?v=dnE7c0ELEH8&t=293s
