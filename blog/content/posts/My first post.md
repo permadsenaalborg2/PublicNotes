@@ -2,6 +2,7 @@
 date = '2024-11-30T14:13:11Z'
 draft = false
 title = 'My First Post'
+tags = ['C#','TECH']
 +++
 
 # My first post :-)
@@ -17,4 +18,3 @@ https://github.com/permadsenaalborg2/PublicNotes
 The result is published here:
 
 http://blog.cloudprog.org
-

@@ -14,13 +14,12 @@ networks = [
 
 [params.ananke.social.follow]
 networks = [
-  "facebook",
   "bluesky",
   "linkedin"
 ]
 
 [params.ananke.social.linkedin]
-username = "permadsenaalborg"
+username = "per-madsen-aalborg"
 
 [params.ananke.social.bluesky]
 username = "permadsenaalborg.bsky.social"
