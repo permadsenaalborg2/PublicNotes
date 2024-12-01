@@ -1,5 +1,5 @@
 cd blog
-hugo
+hugo --minify
 
 cd public
 ls -lsR

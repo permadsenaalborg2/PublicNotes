@@ -18,6 +18,9 @@ networks = [
   "linkedin"
 ]
 
+[params.ananke.social.email]
+email = "per.madsen.aalborg@gmail.com"
+
 [params.ananke.social.linkedin]
 username = "per-madsen-aalborg"
 
