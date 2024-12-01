@@ -1,4 +1,10 @@
-baseURL = 'http://blog.cloudprog.org/'
+baseURL = 'https://blog.cloudprog.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My Blog at cloudprog.org'
 theme = 'ananke'
+
+[params.ananke.social.linkedin]
+username = "permadsenaalborg"
+
+[params.ananke.social.bluesky]
+username = "permadsenaalborg.bsky.social"
