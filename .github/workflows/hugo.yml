@@ -21,18 +21,13 @@ jobs:
       pages: write
     container: ghcr.io/permadsenaalborg2/publicnotes:main
     steps:
-      - run: echo "running inside container"
-
       - uses: actions/checkout@v3
-
+        with: 
+          submodules: 'true'
       - run: chmod +x ./hugo.sh
       - run: ls -ls
-
       - run: ./hugo.sh
-
-      - uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: blog/public/
-
       - uses: actions/deploy-pages@v4
-
