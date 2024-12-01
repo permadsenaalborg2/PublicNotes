@@ -3,8 +3,29 @@ languageCode = 'en-us'
 title = 'My Blog at cloudprog.org'
 theme = 'ananke'
 
+
+
+[params.ananke.social.share]
+networks = [
+  "email",
+  "bluesky",
+  "linkedin"
+]
+
+[params.ananke.social.follow]
+networks = [
+  "facebook",
+  "bluesky",
+  "linkedin"
+]
+
 [params.ananke.social.linkedin]
 username = "permadsenaalborg"
 
 [params.ananke.social.bluesky]
 username = "permadsenaalborg.bsky.social"
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
