@@ -1,9 +1,9 @@
 +++
-date = '2024-11-30T14Z'
+date = '2024-11-30'
 draft = false
 title = 'Kryds og Bolle'
-categories: [development, publishing]
-tags: [hugo,content,static site generator]
+categories = 'development, publishing'
+tags = 'hugo,content,static site generator'
 +++
 
 **Opgavebeskrivelse: Kryds og Bolle spil i Objekt-Orienteret C#**
