@@ -18,3 +18,7 @@ https://github.com/permadsenaalborg2/PublicNotes
 The result is published here:
 
 http://blog.cloudprog.org
+
+Here is a picture:
+
+![[ScreenshotBlog.png]]
