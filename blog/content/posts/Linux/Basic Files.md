@@ -1,7 +1,6 @@
 +++
 date = '2024-11-30'
 draft = false
-title = 'Kryds og Bolle'
 categories = ['Exercises']
 tags = ['Linux', 'H2DT', '2024']
 +++
