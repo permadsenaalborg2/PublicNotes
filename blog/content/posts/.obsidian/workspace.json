@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Basic Files.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -179,16 +179,16 @@
   },
   "active": "b4a9f19ad7443e18",
   "lastOpenFiles": [
-    "Linux/Misc. exercises.md",
+    "Linux/PFSense1.png",
     "Linux/Basic Files.md",
-    "Linux/Adgang fra egen maskine.md",
-    "Kryds og Bolle.md",
+    "My second post.md",
     "My first post.md",
+    "Kryds og Bolle.md",
+    "Linux/Adgang fra egen maskine.md",
+    "Linux/Misc. exercises.md",
     "Linux/Uncheck.png",
     "Linux/PFSense2.png",
-    "Linux/PFSense1.png",
     "Linux",
-    "ScreenshotBlog.png",
-    "My second post.md"
+    "ScreenshotBlog.png"
   ]
 }
